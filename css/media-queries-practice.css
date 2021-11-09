@@ -1,7 +1,72 @@
 /* ----------------------------------------
 
 Styles for Media Queries Practice Exercise
-Author: Your Name Here 
+Author: Phoenix Pua
 
 ----------------------------------------- */
 
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+[class^="box"] {
+  color:white;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+  height: 24vh;
+}
+
+.box1 { 
+    background:#1abc9c;
+    width: 100%;
+}
+.box2 { 
+    background:#3498db;
+    width: 32.33%;
+}
+.box3 { 
+    background:#9b59b6;
+    width: 32.33%;
+}
+.box4 {
+    background:#34495e;
+    width: 32.33%;
+}
+.box5 { 
+    background:#f1c40f;
+    width: 48.98%;
+}
+.box6 { 
+    background:#e67e22;
+    width: 48.98%;
+}
+.box7 { 
+    background:#e74c3c;
+    width:23.98%;
+}
+.box8 { 
+    background:#bdc3c7;
+    width:23.98%;
+}
+.box9 { 
+    background:#2ecc71;
+    width:23.98%;
+}
+.box10 { 
+    background:#16a085;
+    width:23.98%;
+}
+
+.flex-container {
+  border:10px solid goldenrod;
+}
+
+@media screen and (max-width: 992px) {
+    
+}
